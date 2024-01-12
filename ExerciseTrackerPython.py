@@ -11,7 +11,7 @@ print("Hoping to add a little more every day and at the end of the week get a to
 import csv
 from datetime import date
 
-miles_walked = input("How many miles did you walk today? ")
+miles_walked = input("How many miles did you walk today bub? ")
 today = date.today().strftime('%Y/%m/%d')
 with open(r'c:\temp\mileTracker.csv', 'a', newline='') as file:
     writer = csv.writer(file)
